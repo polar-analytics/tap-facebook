@@ -4,7 +4,6 @@
     "object"
   ],
   "properties": {
-    "unique_actions": {"$ref": "ads_action_stats.json"},
     "actions": {"$ref": "ads_action_stats.json"},
     "action_values": {"$ref": "ads_action_stats.json"},
     "outbound_clicks": {"$ref": "ads_action_stats.json"},
@@ -52,50 +51,6 @@
         "string"
       ]
     },
-    "website_ctr": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "object"
-        ],
-        "properties": {
-          "value": {
-            "type": [
-              "null",
-              "number"
-            ]
-          },
-          "action_destination": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "action_target_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "action_type": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        }
-      }
-    },
-    "unique_inline_link_click_ctr": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
     "adset_id": {
       "type": [
         "null",
@@ -112,50 +67,6 @@
       "type": [
         "null",
         "string"
-      ]
-    },
-    "canvas_avg_view_time": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
-    "unique_inline_link_clicks": {
-      "type": [
-        "null",
-        "integer"
-      ]
-    },
-    "cost_per_unique_action_type": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "object"
-        ],
-        "properties": {
-          "value": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "action_type": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        }
-      }
-    },
-    "inline_post_engagement": {
-      "type": [
-        "null",
-        "integer"
       ]
     },
     "campaign_name": {
@@ -217,32 +128,6 @@
         "null",
         "number"
       ]
-    },
-    "cost_per_action_type": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "object"
-        ],
-        "properties": {
-          "value": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "action_type": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        }
-      }
     },
     "unique_link_clicks_ctr": {
       "type": [
